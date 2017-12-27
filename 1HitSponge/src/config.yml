@@ -1,0 +1,16 @@
+#This is the permission needed to execute the /sponge command. (The command only has a reload function).
+SpongeBreakPermission: 'sponge.command'
+#This message will be sent to the player executing the command if they don't have permission to use it.
+NoPermission: '&cYou do not have permission to use this command.'
+#This message will be sent to the player executing the command if they only provided 1 argument (e.g. they only typed /sponge).
+InvalidSyntax: '&cInvalid command usage: /sponge <reload>'
+#This message will be sent to the player if the config has been reloaded.
+ConfigReloaded: '&cConfig reloaded.'
+
+#This will enable 1 hit sponges if true.
+EnableInstantBreak: true
+
+SendPlayerSpongeBreakMessage: true
+
+#Message sent to the player if they break a sponge (if option to send a message is true).
+SpongeBroken: '&cYou broke a sponge :)'

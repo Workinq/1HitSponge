@@ -1,0 +1,8 @@
+name: 1HitSponge
+main: kr.kieran.Sponge
+version: 1.0
+description: A simple plugin to allow for sponges to break in 1 hit.
+commands:
+    sponge:
+        usage: /<command>
+        description: A simple 1 hit sponge plugin.
